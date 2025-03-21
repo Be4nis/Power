@@ -1,7 +1,5 @@
 import time
-
 import board
-
 import adafruit_ina228
 
 i2c = board.I2C()
