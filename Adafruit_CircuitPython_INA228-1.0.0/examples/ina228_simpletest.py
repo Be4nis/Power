@@ -3,12 +3,10 @@
 # SPDX-License-Identifier: MIT
 
 import time
-
 import board
-
+import busio
 import adafruit_ina228
-
-i2c = board.I2C()
+i2c = busio.I2C(board.SCL, board.SDA)
 ina228 = adafruit_ina228.INA228(i2c)
 print("Adafruit INA228 Test")
 
