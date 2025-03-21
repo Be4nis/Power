@@ -1,0 +1,1 @@
+{"adafruit_ina228": {"dependencies": [], "external_dependencies": ["adafruit-circuitpython-busdevice", "adafruit-circuitpython-register"], "package": false, "path": "lib/adafruit_ina228", "pypi_name": "adafruit-circuitpython-ina228", "repo": "https://github.com/adafruit/adafruit_circuitpython_ina228", "version": "1.0.0"}}
